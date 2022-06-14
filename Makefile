@@ -8,7 +8,7 @@ ps:
 	@docker compose ps
 
 exec:
-	@docker exec -it mysql mysql -uroot -p
+	@docker exec -it mysql mysql -uroot -ppassword
 
 test:
 	@go test ./... -v
